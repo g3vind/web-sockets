@@ -43,7 +43,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 2. Navigate to the project folder:
 
    ```bash
-   cd ws
+   cd <folder name>
    ```
 
 3. Install dependencies:
