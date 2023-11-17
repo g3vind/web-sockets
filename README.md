@@ -3,6 +3,7 @@
 
 ## Folder Structure
 
+## For ws-1
 ```
 ws-1/
 |-- app/
@@ -13,6 +14,14 @@ ws-1/
 |   |-- index.js
 |-- package.json
 |-- package-lock.json
+```
+## for socket-io-example 
+```
+|-- index.html
+|-- index.js
+|-- package.json
+|-- package-lock.json
+ 
 ```
 
 ## Getting Started
