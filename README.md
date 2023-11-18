@@ -3,6 +3,7 @@
 
 ## Folder Structure
 
+## For ws-1
 ```
 ws-1/
 |-- app/
@@ -13,6 +14,14 @@ ws-1/
 |   |-- index.js
 |-- package.json
 |-- package-lock.json
+```
+## for socket-io-example 
+```
+|-- index.html
+|-- index.js
+|-- package.json
+|-- package-lock.json
+ 
 ```
 
 ## Getting Started
@@ -34,7 +43,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 2. Navigate to the project folder:
 
    ```bash
-   cd ws
+   cd <folder name>
    ```
 
 3. Install dependencies:
