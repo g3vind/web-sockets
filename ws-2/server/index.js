@@ -1,20 +1,25 @@
-// Import the 'ws' library to create a WebSocket server
-const ws = require("ws");
+import { createServer } from "http";
+import { Server } from "socket.io";
 
-// Create a WebSocket server instance listening on port 3000
-const server = new ws.Server({ port: "3000" });
+const httpServer = createServer();
+const io = new Server(httpServer, {
+  cors: {
+    origin:
+      process.env.NODE_ENV === "production"
+        ? false
+        : ["http://localhost:5500", "https://127.0.0.1:5500"],
+  },
+});
 
-// Event listener for when a new WebSocket connection is established
-server.on("connection", (socket) => {
-  // Event listener for when a message is received from a client
-  socket.on("message", (message) => {
-    // Convert the received message to a Buffer
-    const buffer = Buffer.from(message);
+io.on("connection", (socket) => {
+  console.log(`User ${socket.id} connected`);
 
-    // Log the message as a string to the console
-    console.log(buffer.toString());
-
-    // Send the received message back to the client
-    socket.send(`${message}`);
+  socket.on("message", (data) => {
+    console.log(data);
+    io.emit("message", `${socket.id.substring(0, 5)} : ${data}`);
   });
+});
+
+httpServer.listen(3500, () => {
+  console.log(`listening on port 3500`);
 });
