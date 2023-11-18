@@ -9,12 +9,42 @@ ws-1/
 |-- app/
 |   |-- index.html
 |   |-- style.css
-|   |-- iapp.js
+|   |-- app.js
 |-- server/
 |   |-- index.js
 |-- package.json
 |-- package-lock.json
 ```
+![Screenshot (656)](https://github.com/g3vind/web-sockets/assets/70854788/3b4e86d7-8165-4f11-b8ad-6a38a432e681)`
+
+## For ws-2
+```
+ws-2/
+|-- app/
+|   |-- index.html
+|   |-- style.css
+|   |-- app.js
+|-- server/
+|   |-- index.js
+|-- package.json
+|-- package-lock.json
+```
+
+## For ws-3
+```
+ws-3/
+|-- 
+|-- server/
+|-----public/
+|     |-- index.html
+|     |-- style.css
+|     |-- app.js
+|  -- index.js
+|-- package.json
+|-- package-lock.json
+```
+![Screenshot (657)](https://github.com/g3vind/web-sockets/assets/70854788/d3826eac-216a-47c2-aab9-57137c9d4e8b)
+
 ## for socket-io-example 
 ```
 |-- index.html
@@ -23,6 +53,8 @@ ws-1/
 |-- package-lock.json
  
 ```
+
+![Screenshot (656)](https://github.com/g3vind/web-sockets/assets/70854788/3b4e86d7-8165-4f11-b8ad-6a38a432e681)
 
 ## Getting Started
 
