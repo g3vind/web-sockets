@@ -45,6 +45,21 @@ ws-3/
 ```
 ![Screenshot (657)](https://github.com/g3vind/web-sockets/assets/70854788/d3826eac-216a-47c2-aab9-57137c9d4e8b)
 
+## For ws-3
+```
+ws-3/
+|-- 
+|-- server/
+|-----public/
+|     |-- index.html
+|     |-- style.css
+|     |-- app.js
+|  -- index.js
+|-- package.json
+|-- package-lock.json
+```
+![Screenshot (659)](https://github.com/g3vind/web-sockets/assets/70854788/0fc79f04-d24d-41c2-a26a-c51ce8ca90e2)
+
 ## for socket-io-example 
 ```
 |-- index.html
