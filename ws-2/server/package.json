@@ -1,0 +1,16 @@
+{
+  "name": "ws-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Govind Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
