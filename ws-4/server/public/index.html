@@ -2,28 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- SOCKET>IO Frontend CDN -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websockets</title>
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
         integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- JS -->
-    <!-- `defer` - load js only after page is loaded -->
     <script defer src="app.js"></script>
-    <title>Web Sockets</title>
 </head>
 
 <body>
-    <h1 style="text-align: center;">Welcome 🔥</h1>
     <form>
-        <input type="text" placeholder="Your message" />
+        <input type="text" placeholder="Your message">
         <button>Send</button>
-
     </form>
     <ul></ul>
+    <p class="activity"></p>
 </body>
 
 </html>
