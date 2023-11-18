@@ -3,6 +3,17 @@
 
 ## Folder Structure
 
+## for socket-io-example 
+```
+|-- index.html
+|-- index.js
+|-- package.json
+|-- package-lock.json
+ 
+```
+
+![Screenshot (656)](https://github.com/g3vind/web-sockets/assets/70854788/3b4e86d7-8165-4f11-b8ad-6a38a432e681)
+
 ## For ws-1
 ```
 ws-1/
@@ -60,16 +71,6 @@ ws-3/
 ```
 ![Screenshot (659)](https://github.com/g3vind/web-sockets/assets/70854788/0fc79f04-d24d-41c2-a26a-c51ce8ca90e2)
 
-## for socket-io-example 
-```
-|-- index.html
-|-- index.js
-|-- package.json
-|-- package-lock.json
- 
-```
-
-![Screenshot (656)](https://github.com/g3vind/web-sockets/assets/70854788/3b4e86d7-8165-4f11-b8ad-6a38a432e681)
 
 ## Getting Started
 
