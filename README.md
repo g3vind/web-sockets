@@ -71,6 +71,20 @@ ws-3/
 ```
 ![Screenshot (659)](https://github.com/g3vind/web-sockets/assets/70854788/0fc79f04-d24d-41c2-a26a-c51ce8ca90e2)
 
+## For ws-5 (Chat App)
+```
+ws-5/
+|-- 
+|-- server/
+|-----public/
+|     |-- index.html
+|     |-- style.css
+|     |-- app.js
+|  -- index.js
+|-- package.json
+|-- package-lock.json
+```
+![Screenshot (660)](https://github.com/g3vind/web-sockets/assets/70854788/1c45012c-030b-49a9-ba65-4d50567d381d)
 
 ## Getting Started
 
